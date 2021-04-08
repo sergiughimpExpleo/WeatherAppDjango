@@ -1,0 +1,17 @@
+    The search tool has the uses to find the city and print the follow details: country code, coordinate, temp, pressure, humidity. This uses we can do with an API from a weather site.
+
+1. Project setup
+    1. Create the 'templates' & the 'static' folder with HTML & CSS code
+    2. Link the path to settings.py (Templates, Installed Apps) to render HTML & CSS code
+    3. Create urls.py app and import to rooting urls.py
+
+2. Create a view to render the index.html page
+    1. Link the CSS file to HTML file
+    2. Activate the Search tool in the page using the POST method to show the city that we are looking for
+
+3. Activate the Search tool to show the details about weather
+    1. Access the meta maps API from the code (add API in the code Project)
+    2. Use json to Access all the data that we need
+    3. Add dynamically data on the project code
+
+4. Hide the information on the start page (when you enter the name of city the information will be appear on the page)
